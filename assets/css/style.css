@@ -1,0 +1,1884 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Alternates';
+    background-color: white;
+    color: black !important;
+    cursor: default;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: bold
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+h6 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    outline: none;
+    font-family: 'Alternates';
+}
+
+section {
+    width: 100%;
+    height: max-content;
+}
+
+u {
+    color: #58bb43;
+}
+
+.flex {
+    display: flex;
+}
+
+.heading {
+    position: relative;
+    padding: 150px 0 50px 0;
+}
+
+.reveal{
+
+  }
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+header.header {
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    background-color: white;
+    position: fixed;
+    z-index: 888;
+}
+
+header.header nav.header-nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header.header nav.header-nav ul.header-ul {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header nav.header-nav ul.header-ul .header-logo {
+    width: 20%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+}
+
+header.header nav.header-nav ul.header-ul .header-logo img {
+    width: 65px;
+}
+
+header.header nav.header-nav ul.header-ul .header-menu {
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header nav.header-nav ul.header-ul .header-menu h6 {
+    width: auto;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+header.header nav.header-nav ul.header-ul .header-menu a {
+    border-left: solid 2px rgba(87, 187, 67, 0);
+    margin: 0 0 0 4px;
+    padding: 3px;
+    transition: 0.2s;
+}
+
+header.header nav.header-nav ul.header-ul .header-menu a:hover {
+    margin: 0;
+    padding: 3px 3px 3px 7px;
+    border-left: solid 2px #58bb43;
+    color: #58bb43;
+    transition: 0.2s;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile {
+    width: 20%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile form {
+    align-items: center;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile form h6 {
+    font-weight: bold;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile form a {
+    color: rgba(255, 0, 0, 0.705);
+    transition: 0.2s;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile form a:hover {
+    color: rgba(255, 0, 0, 0.750);
+    transition: 0.2s;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 4px #57bb4354;
+    margin-right: 10px;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile button {
+    padding: 7px 30px;
+    margin: 0 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: unset;
+    background-color: #58bb43;
+    color: white;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+header.header nav.header-nav ul.header-ul .header-profile button:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+section .main-container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+section .main-content {
+    width: 100%;
+}
+
+section .main-content .main-text-info {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 0 0 70px 0;
+    padding: 150px 0 0 0;
+}
+
+section .main-content .main-block-active-information {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+}
+
+section .main-content .main-block-active-information .main-blocks-info {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .main-content .main-block-active-information .main-blocks {
+    width: 100%;
+    height: fit-content;
+}
+
+section .main-content .main-block-active-information .main-block-content {
+    width: 100%;
+    color: white;
+    height: 228px;
+    padding: 22px 45px;
+    margin: 7px;
+    border-radius: 40px;
+    cursor: default;
+}
+
+section .main-content .main-block-active-information .icon-info {
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+section .main-content .main-block-active-information .icon-info h1 {
+    margin: 0 5px 0 0;
+}
+
+section .main-content .main-block-active-information .icon-info h4 {
+    margin: 0 auto 0 0;
+}
+
+section .main-content .main-block-active-information .more-info p {
+    opacity: 80%;
+}
+
+section .main-content .main-block-active-information .red {
+    background-color: rgba(255, 0, 0, 0.705);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .red:hover {
+    background-color: rgba(255, 0, 0, 0.770);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .green {
+    background-color: rgba(0, 128, 0, 0.705);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .green:hover {
+    background-color: rgba(0, 128, 0, 0.770);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .pink {
+    background-color: rgba(234, 0, 255, 0.705);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .pink:hover {
+    background-color: rgba(234, 0, 255, 0.770);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .orange {
+    background-color: rgba(255, 166, 0, 0.705);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .orange:hover {
+    background-color: rgba(255, 166, 0, 0.770);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .main-big-block-info {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+section .main-content .main-block-active-information .main-big-block {
+    width: 100%;
+    height: 466px;
+    background-color: rgba(0, 0, 255, 0.705);
+    color: white;
+    padding: 70px 40px;
+    border-radius: 40px;
+    text-align: center;
+    cursor: default;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+section .main-content .main-block-active-information .main-big-block:hover {
+    background-color: rgba(0, 0, 255, 0.770);
+    transition: 0.2s;
+}
+
+section .main-content .main-block-active-information .main-big-block a {
+    color: white;
+}
+
+section .main-content .main-block-active-information .main-big-block h2 {
+    margin: 30px 0 20px 0;
+}
+
+section .main-content .main-block-active-information .main-big-block p {
+    opacity: 80%;
+}
+
+section .aside-container-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section .advices-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .advices-blocks-container {
+    width: 100%;
+    height: fit-content;
+}
+
+section .advices-blocks-container .advices-blocks-content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-blocks {
+    width: 100%;
+    height: fit-content;
+    margin: 20px 0;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-block {
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-block:hover {
+    background-color: rgb(253, 253, 253);
+    transition: 0.2s;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-block-info {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    transition: 0.2s;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-block-info:hover h1 {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-block-info h5 {
+    margin: 0 auto 0 0;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-block-info h1 {
+    background-color:#58bb43;
+    color:#ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-more-info {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    background-color: white;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 40px;
+    display: none;
+}
+
+section .advices-blocks-container .advices-blocks-content .advices-more-info p {
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+section .exercises-content .exercises-blocks-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block {
+    width: 50%;
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    margin: 0 15px;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    cursor: default;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block h1.red-exercises {
+    color: rgba(255, 0, 0, 0.705);
+    opacity: 80%;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block h1.green-exercises {
+    color: rgba(0, 128, 0, 0.705);
+    opacity: 80%;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block h1.pink-exercises {
+    color: rgba(234, 0, 255, 0.705);
+    opacity: 80%;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block h1.orange-exercises {
+    color: rgba(255, 166, 0, 0.705);
+    opacity: 80%;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block h5 {
+    margin: 10px 0 20px 0;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block p {
+    opacity: 80%;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block .exercises-btn {
+    margin: 110px 0 0 0;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block button {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: unset;
+    border-radius: 30px;
+    background-color:#58bb43;
+    color: white;
+    transition: 0.2s;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block button:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+section .exercises-content .exercises-blocks-content .exercises-block .exercises-btn h1 {
+    display: flex;
+    align-items: center;
+    margin: 4px 0 0 5px;
+}
+
+section .exercises-content .exercises-block-info {
+    width: 50%;
+    margin: 70px auto;
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+section .proper-nutrition-article-container {
+    width: 100%;
+    height: max-content;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container {
+    width: 50%;
+    height: fit-content;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .propr-nutrition-people-content {
+    width: 100%;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people {
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    font-size: 0;
+    margin: 0;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people {
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    font-size: 0;
+    margin: 0 0 0 auto;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people .line-proper-nutrition {
+    height: 5px;
+    background-color: #57bb4354;
+    border-radius: 3px;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid 5px #57bb4354;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid 5px #57bb4354;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people .line-proper-nutrition {
+    height: 5px;
+    background-color: #57bb4354;
+    border-radius: 3px;
+}
+
+section .propr-nutrition-people-content .proper-nutrition-people-info {
+    width: fit-content;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    border-radius: 40px;
+    margin: 40px 0;
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+section .proper-nutrition-article-container .proper-nutrition-article-line-vc {
+    width: 5px;
+    height: 1500px;
+    border-radius: 3px;
+    background-color: #57bb4354;
+    margin: 0 10px;
+}
+
+section .motivation-blocks-container {
+    width: 100%;
+}
+
+section .motivation-blocks-container .motivation-block {
+    width: 50%;
+    padding: 40px;
+    margin: 0 30px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+section .motivation-blocks-container .motivation-block h5 {
+    text-align: center;
+}
+
+section .motivation-blocks-container .motivation-block p {
+    text-indent: 10px;
+    line-height: 30px;
+    margin: 40px 0 0 0;
+    opacity: 80%;
+}
+
+section .motivation-content .motivation-information {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 50px auto 0 auto;
+}
+
+section .motivation-content .motivation-information p {
+    width: 60%;
+    margin: 0 auto 0 0;
+}
+
+section .motivation-content .motivation-information .motivation-video-button {
+    width: fit-content;
+    margin: 0 0 0 auto;
+}
+
+section .motivation-content .motivation-information .motivation-video-button button {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 70px;
+    font-size: 1.5rem;
+    background-color: #58bb43;
+    border: unset;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+section .motivation-content .motivation-information .motivation-video-button button:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+section .motivation-content .motivation-information .motivation-video-button h1 {
+    display: flex;
+    align-items: center;
+    margin: 4px 0 0 5px;
+}
+
+section .contacts-apps {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+section .contacts-apps .contacts-title {
+    width: 100%;
+    text-align: center;
+}
+
+section .contacts-apps nav.nav-contacts-apps {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps {
+    width: 70%;
+    margin: 60px auto 0 auto;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 70px;
+}
+
+section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps li {
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps li:hover {
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    height: fit-content;
+    margin: 50px 0;
+}
+
+footer .footer-content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+footer .footer-content .footer-time-container {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+footer .footer-content .footer-active-links {
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer .footer-content .footer-active-links h5 {
+    margin: 0 0 5px 0;
+}
+
+footer .footer-content .footer-active-links h6 {
+    margin: 10px 0;
+}
+
+footer .footer-content .footer-active-links a {
+    color: white;
+    transition: 0.2s;
+}
+
+footer .footer-content .footer-active-links a:hover {
+    color: #58bb43;
+    transition: 0.2s;
+}
+
+section .blog-container {
+    width: 75%;
+    margin: 0 auto 50px auto;
+}
+
+section .blog-container .blog-content {
+    height: fit-content;
+    margin: 150px 30px 0 0;
+    padding: 40px 40px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+}
+
+section .blog-container .blog-content h2 {
+    text-align: center;
+}
+
+section .blog-container .blog-content .blog-content-block-info {
+    margin: 50px 0;
+}
+
+section .blog-container .blog-content .blog-content-block-info p {
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+section .blog-container .sticky {
+    position: sticky;
+    top: 150px;
+}
+
+section .blog-container .sticky-block {
+    height: fit-content;
+    margin: 150px 0 0 0;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    padding: 50px 40px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+section .blog-container .sticky-block img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0 0 10px 0;
+}
+
+section .blog-container .sticky-block p {
+    line-height: 30px;
+}
+
+section .blog-container .sticky-block button {
+    background-color: #58bb43;
+    color: white;
+    border: unset;
+    font-size: 1.5em;
+    padding: 10px 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 40px 0 0 0;
+    transition: 0.2s;
+}
+
+section .blog-container .sticky-block button:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+section .politics-container {
+    width: 100%;
+    height: fit-content;
+    padding: 150px 0 0 0;
+
+}
+
+section .politics-container .politics-content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+section .politics-container .politics-content h2 {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+section .politics-container .politics-content p {
+    text-indent: 10px;
+    line-height: 30px;
+    margin: 50px 0;
+}
+
+section .politics-container .politics-content h4 {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+section .politics-container .politics-content h5 {
+    text-align: center;
+}
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal form {
+    width: max-content;
+    height: fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.modal form h4 {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.modal form h5 {
+    margin: 0 0 15px 0;
+}
+
+.modal form input {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px 20px;
+    border: solid 2px #57bb4354;
+    border-radius: 35px;
+    margin: 0 0 10px 0;
+    outline: none;
+}
+
+.modal form button {
+    font-size: 1.3rem;
+    padding: 8px 40px;
+    border: unset;
+    background-color: #58bb43;
+    color: white;
+    border-radius: 20px;
+    margin: 25px 0 10px 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.modal form button:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+.input-file {
+	position: relative;
+	display: flex;
+}
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	text-align: left;
+	height: 40px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	border-radius: 30px 0 0 30px;
+	border: 1px solid #57bb43e3;
+    font-size: 0.7rem;
+    display: block;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.input-file-btn {
+    width: 100%;
+    position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 1rem;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	background-color: #58bb43;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: 0.2s;
+    border-radius: 0 30px 30px 0;
+}
+
+.input-file-btn:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+.modal-video {
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: #000000be;
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.modal-conatiner {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.modal-content {
+    width: max-content;
+    height: auto;
+    padding: 20px;
+}
+
+.modal-content .modal-heading {
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+
+.modal-content .modal-heading h6 {
+    margin: 0 auto 0 0;
+}
+
+.modal-content .modal-heading button {
+    height: fit-content;
+    margin: 0 0 0 auto;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: unset;
+    background-color: #58bb43;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.2s;
+}
+
+.modal-content .modal-heading button:hover {
+    background-color:#57bb43e3;
+    transition: 0.2s;
+}
+
+.modal-content video {
+    width: 45vw;
+    height: 27vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.modal-walking {
+    display: none;
+}
+
+.modal-bodyweight {
+    display: none;
+}
+
+.modal-stretching {
+    display: none;
+}
+
+.modal-cardiovascula {
+    display: none;
+}
+
+.modal-motivation {
+    display: none;
+}
+
+.modal-wellbeing {
+    display: none;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1820px){
+    h1 {
+        font-size: 3.3rem;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+    
+    h2 {
+        font-size: 2.3rem;
+        font-weight: 100;
+    }
+    
+    h3 {
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+    
+    h4 {
+        font-size: 1.5rem;
+        font-weight: bold
+    }
+    
+    h5 {
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+    
+    h6 {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem !important;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people .line-proper-nutrition {
+        height: 5px;
+        background-color: #57bb4354;
+        border-radius: 3px;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: solid 5px #57bb4354;
+        margin: 0 10px;
+        object-fit: cover;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: solid 5px #57bb4354;
+        margin: 0 10px;
+        object-fit: cover;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people .line-proper-nutrition {
+        height: 5px;
+        background-color: #57bb4354;
+        border-radius: 3px;
+    }
+    
+    section .propr-nutrition-people-content .proper-nutrition-people-info {
+        width: fit-content;
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        border-radius: 40px;
+        margin: 40px 0;
+        text-indent: 10px;
+        line-height: 30px;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-article-line-vc {
+        width: 5px;
+        height: 1500px;
+        border-radius: 3px;
+        background-color: #57bb4354;
+        margin: 0 10px;
+    }
+
+    .icon-play {
+        width: 80px;
+        height: 80px
+    }
+    
+    .advices-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    section .motivation-blocks-container .motivation-block {
+        width: 50%;
+        padding: 40px;
+        margin: 0 15px;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+    }
+
+    section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1400px){
+    h1 {
+        font-size: 2.9rem;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+    
+    h2 {
+        font-size: 2.1rem;
+        font-weight: 100;
+    }
+    
+    h3 {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+        font-weight: bold
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+    
+    h6 {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem !important;
+    }
+
+    .main-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    header.header {
+        width: 100%;
+        height: 70px;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        background-color: white;
+        position: fixed;
+        z-index: 888;
+    }
+    
+    header.header nav.header-nav {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    header.header nav.header-nav ul.header-ul {
+        height: 70px;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-logo {
+        width:  10%;
+        margin: 0 auto;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-logo img {
+        width: 50px;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-menu {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-profile {
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-profile img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .heading {
+        padding: 100px 0 30px 0;
+    }
+    
+    main {
+        height: max-content;
+        display: block;
+    }
+
+    section .main-container {
+        width: 95%;
+        height: max-content;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    section .main-content .main-text-info {
+        margin: 0 0 70px 0;
+        padding: 130px 0 0 0;
+    }
+    
+    section .main-content .main-block-active-information {
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+    
+    section .main-content .main-block-active-information .main-blocks-info {
+        width: 100%;
+    }
+    
+    section .main-content .main-block-active-information .icon-info h1 {
+        margin: 0 5px 0 0;
+    }
+    
+    section .main-content .main-block-active-information .main-big-block-info {
+        width: 100%;
+    }
+    
+    section .main-content .main-block-active-information .main-big-block {
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content {
+        width: 100%;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-block {
+        padding: 5px 0;
+        border-radius: 40px;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-block-info h1 {
+        width: 60px;
+        height: 60px;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-more-info {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        background-color: white;
+        margin: 20px 0;
+        padding: 30px;
+        border-radius: 30px;
+        display: none;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-more-info p {
+        text-indent: 10px;
+        line-height: 30px;
+    }
+    
+    section .exercises-content .exercises-blocks-content {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    section .exercises-content .exercises-blocks-content .exercises-block {
+        width: 100%;
+        height: max-content;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        margin: 30px 0;
+        padding: 20px;
+        border-radius: 40px;
+        text-align: center;
+        cursor: default;
+    }
+    
+    section .exercises-content .exercises-blocks-content .exercises-block .exercises-btn {
+        margin: 70px 0 0 0;
+    }
+    
+    section .exercises-content .exercises-block-info {
+        width: 60%;
+        margin: 60px auto;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: solid 5px #57bb4354;
+        margin: 0 10px;
+        object-fit: cover;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: solid 5px #57bb4354;
+        margin: 0 10px;
+        object-fit: cover;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people .line-proper-nutrition {
+        height: 5px;
+        background-color: #57bb4354;
+        border-radius: 3px;
+    }
+    
+    section .propr-nutrition-people-content .proper-nutrition-people-info {
+        width: fit-content;
+        padding: 40px;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        border-radius: 40px;
+        margin: 40px 0;
+        text-indent: 10px;
+        line-height: 30px;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-article-line-vc {
+        width: 5px;
+        height: 1500px;
+        border-radius: 3px;
+        background-color: #57bb4354;
+        margin: 0 10px;
+    }
+
+    section .motivation-blocks-container {
+        width: 100%;
+        display: block;
+    }
+    
+    section .motivation-blocks-container .motivation-block {
+        width: 100%;
+        padding: 40px;
+        margin: 30px 0;
+        border-radius: 40px;
+    }
+    
+    section .contacts-apps {
+        padding: 35px;
+    }
+    
+    section .contacts-apps .contacts-title {
+        width: 100%;
+        text-align: center;
+    }
+    
+    section .contacts-apps nav.nav-contacts-apps {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps {
+        width: 100%;
+        padding: 15px 50px;
+    }
+    
+    section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    footer {
+        margin: 30px 0;
+    }
+    
+    footer .footer-content {
+        width: 90%;
+        margin: 0 auto;
+        background-color: black;
+        padding: 30px;
+        border-radius: 50px;
+    }
+    
+    footer .footer-content .footer-time-container {
+        padding: 25px;
+    }
+    
+    footer .footer-content .footer-active-links {
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    footer .footer-content .footer-active-links h5 {
+        margin: 0 0 5px 0;
+    }
+    
+    footer .footer-content .footer-active-links h6 {
+        margin: 10px 0;
+    }
+    
+    footer .footer-content .footer-active-links a {
+        color: white;
+        transition: 0.2s;
+    }
+    
+    footer .footer-content .footer-active-links a:hover {
+        color: #58bb43;
+        transition: 0.2s;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 950px){
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 100;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    
+    h4 {
+        font-size: 0.8rem;
+        font-weight: bold
+    }
+    
+    h5 {
+        font-size: 0.85rem;
+        font-weight: 100;
+    }
+    
+    h6 {
+        font-size: 0.45rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    
+    p {
+        font-size: 0.7rem;
+    }
+
+    button {
+        font-size: 0.9rem !important;
+    }
+
+    header.header {
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        background-color: white;
+        position: fixed;
+        z-index: 888;
+    }
+    
+    header.header nav.header-nav {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header.header nav.header-nav ul.header-ul {
+        height: 60px;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-logo {
+        width:  50%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-logo img {
+        width: 40px;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-menu {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-profile {
+        width: 50%;
+        margin: 0 auto;
+        justify-content: end;
+    }
+    
+    header.header nav.header-nav ul.header-ul .header-profile img {
+        width: 35px;
+        height: 35px;
+        border: solid 2px #57bb4354;
+    }
+
+    header.header nav.header-nav ul.header-ul .header-profile button {
+        padding: 5px 15px;
+        margin: 0 4px;
+        cursor: pointer;
+        border: unset;
+        background-color: #58bb43;
+        color: white;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+
+    .heading {
+        padding: 80px 0 30px 0;
+    }
+    
+    main {
+        height: max-content;
+        display: block;
+    }
+
+    section .main-container {
+        width: 95%;
+        height: max-content;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    section .main-content .main-text-info {
+        margin: 0 0 60px 0;
+        padding: 130px 0 0 0;
+        text-align: center;
+    }
+    
+    section .main-content .main-block-active-information {
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+    
+    section .main-content .main-block-active-information .main-blocks-info {
+        width: 100%;
+    }
+    
+    section .main-content .main-block-active-information .icon-info h1 {
+        margin: 0 5px 0 0;
+    }
+    
+    section .main-content .main-block-active-information .main-big-block-info {
+        width: 100%;
+    }
+
+    section .main-content .main-block-active-information .main-block-content {
+        width: 100%;
+        color: white;
+        height: 231.5px;
+        padding: 30px;
+        margin: 7px;
+        border-radius: 40px;
+        cursor: default;
+    }
+
+    section .main-content .main-block-active-information .main-big-block {
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content {
+        width: 100%;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-block {
+        padding: 5px 0;
+        border-radius: 40px;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-block-info h1 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-more-info {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        background-color: white;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 30px;
+        display: none;
+    }
+    
+    section .advices-blocks-container .advices-blocks-content .advices-more-info p {
+        text-indent: 10px;
+        line-height: 30px;
+    }
+    
+    section .exercises-content .exercises-blocks-content {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    section .exercises-content .exercises-blocks-content .exercises-block {
+        width: 100%;
+        height: max-content;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        margin: 30px 0;
+        padding: 20px;
+        border-radius: 40px;
+        text-align: center;
+        cursor: default;
+    }
+    
+    section .exercises-content .exercises-blocks-content .exercises-block .exercises-btn {
+        margin: 70px 0 0 0;
+    }
+    
+    section .exercises-content .exercises-block-info {
+        width: 60%;
+        margin: 60px auto;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people-left-people img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: solid 3px #57bb4354;
+        margin: 0 10px;
+        object-fit: cover;
+        display: none;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: solid 3px #57bb4354;
+        margin: 0 10px;
+        object-fit: cover;
+        display: none;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-people-container .proper-nutrition-people .line-proper-nutrition {
+        height: 5px;
+        background-color: #57bb4354;
+        border-radius: 3px;
+    }
+
+    .line-proper-nutrition {
+        display: none;
+    }
+
+    section .proper-nutrition-article-container .proper-nutrition-people-container {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    section .proper-nutrition-article-content {
+        width: 100%;
+        display: block;
+    }
+
+    section .propr-nutrition-people-content .proper-nutrition-people-info {
+        width: 100%;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.060) 0 0 15px 0;
+        border-radius: 40px;
+        margin: 10px 0;
+        text-indent: 10px;
+        line-height: 30px;
+    }
+    
+    section .proper-nutrition-article-container .proper-nutrition-article-line-vc {
+        width: 5px;
+        background-color: #57bb4354;
+        margin: 0 5px;
+        display: none;
+    }
+
+    section .motivation-blocks-container {
+        width: 100%;
+        display: block;
+    }
+    
+    section .motivation-blocks-container .motivation-block {
+        width: 100%;
+        padding: 30px;
+        margin: 30px 0;
+        border-radius: 40px;
+    }
+
+    section .motivation-content .motivation-information {
+        width: 95%;
+        display: block;
+        align-items: center;
+        margin: 50px auto 0 auto;
+    }
+    
+    section .motivation-content .motivation-information p {
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+    
+    section .motivation-content .motivation-information .motivation-video-button {
+        width: fit-content;
+        margin: 0 auto 0 auto;
+    }
+    
+    section .motivation-content .motivation-information .motivation-video-button button {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 30px;
+        font-size: 1.5rem;
+        background-color: #58bb43;
+        border: unset;
+        color: white;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    section .motivation-content .motivation-information .motivation-video-button button:hover {
+        background-color:#57bb43e3;
+        transition: 0.2s;
+    }
+    
+    section .motivation-content .motivation-information .motivation-video-button h1 {
+        display: flex;
+        align-items: center;
+        margin: 4px 0 0 5px;
+    }
+    
+    section .contacts-apps {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    section .contacts-apps .contacts-title {
+        width: 100%;
+        text-align: center;
+    }
+    
+    section .contacts-apps nav.nav-contacts-apps {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps {
+        width: 100%;
+        padding: 15px 30px;
+    }
+    
+    section .contacts-apps nav.nav-contacts-apps ul.ul-contacts-apps img {
+        width: 2.6vw;
+        height: 2.6vw;
+    }
+    
+    footer {
+        margin: 30px 0;
+    }
+    
+    footer .footer-content {
+        width: 90%;
+        margin: 0 auto;
+        background-color: black;
+        padding: 22px 12px;
+        border-radius: 20px;
+        justify-content: center;
+    }
+    
+    footer .footer-content .footer-time-container {
+        padding: 10px;
+        border-radius: 10px;
+        display: none;
+    }
+    
+    footer .footer-content .footer-active-links {
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin: 0 5px;
+    }
+    
+    footer .footer-content .footer-active-links h5 {
+        margin: 0 0 5px 0;
+    }
+    
+    footer .footer-content .footer-active-links h6 {
+        margin: 3px 0;
+        font-size: 0.5rem;
+    }
+    
+    footer .footer-content .footer-active-links a {
+        color: white;
+        transition: 0.2s;
+    }
+    
+    footer .footer-content .footer-active-links a:hover {
+        color: #58bb43;
+        transition: 0.2s;
+    }
+
+    .icon-play {
+        width: 80px;
+        height: 80px
+    }
+    
+    .advices-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .main-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
